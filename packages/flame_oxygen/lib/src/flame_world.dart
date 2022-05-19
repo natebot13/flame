@@ -24,6 +24,7 @@ class FlameWorld extends World {
       system.update(delta);
     }
     entityManager.processRemovedEntities();
+    entityManager.processRemovedComponents();
   }
 
   @override
