@@ -26,3 +26,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   test: any
+
+dependency_overrides:
+  tiled:
+    path: ../../../tiled.dart/packages/tiled

@@ -67,7 +67,8 @@ class RenderableTiledMap {
     final backgroundColor = map.backgroundColor;
     if (backgroundColor != null) {
       _backgroundPaint = Paint();
-      _backgroundPaint!.color = backgroundColor;
+      _backgroundPaint!.color =
+          ColorExtension.fromARGBHexString(backgroundColor);
     } else {
       _backgroundPaint = null;
     }
