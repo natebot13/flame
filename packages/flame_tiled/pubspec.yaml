@@ -29,4 +29,6 @@ dev_dependencies:
 
 dependency_overrides:
   tiled:
-    path: ../../../tiled.dart/packages/tiled
+    git:
+      url: git@github.com:natebot13/tiled.dart.git
+      path: packages/tiled
