@@ -46,6 +46,7 @@ class FlameImageLayer extends RenderableLayer<ImageLayer> {
       opacity: opacity,
       alignment: Alignment.topLeft,
       repeat: _repeat,
+      filterQuality: FilterQuality.none,
     );
 
     canvas.restore();
